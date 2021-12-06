@@ -306,6 +306,7 @@ img{
 }
 .portfolio__link-name{
     color: var(--dark-color);
+    margin: 10px;
 }
 
 /* ===== CONTACT =====*/
