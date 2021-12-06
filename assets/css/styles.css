@@ -9,8 +9,9 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #5361FF;
-    --white-color: #FAFAFF;
+    --second-color: green;
+    --first-color: rgb(75, 75, 243);
+    --white-color: #e9e9e9;
     --dark-color: #2A3B47;
     --text-color: #697477;
 }
@@ -18,7 +19,7 @@
 /*===== Fuente y tipografia =====*/
 :root{
     --body-font: 'Montserrat', sans-serif;
-    --big-font-size: 6.25rem;
+    --big-font-size: 5.25rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
@@ -178,7 +179,9 @@ img{
 /*===== HOME =====*/
 .home{
     position: relative;
-    background-color: var(--first-color);
+    background-image: url('./img/sportsmain2.jpg');
+    background-size: cover;
+    background-position: center center;
     overflow: hidden;
 }
 .home__container{
@@ -222,8 +225,6 @@ img{
     padding-top: 1rem;
     width: 120px;
     height: 120px;
-    background-color: var(--first-color);
-    border-radius: 50%;
     overflow: hidden;
 }
 .about__img img{
@@ -427,8 +428,8 @@ img{
         row-gap: 0;
     }
     .home__img{
-        width: 524px;
-        right: 10%;
+        width: 376px;
+        right: 3%;
     }
 
     .about__container{
