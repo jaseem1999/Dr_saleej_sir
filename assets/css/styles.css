@@ -19,7 +19,7 @@
 /*===== Fuente y tipografia =====*/
 :root{
     --body-font: 'Montserrat', sans-serif;
-    --big-font-size: 5.25rem;
+    --big-font-size: 3.25rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
@@ -194,8 +194,11 @@ img{
     color: var(--white-color);
     line-height: .8;
 }
+
 .home__title span{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
+    line-height: 1.5;
+    
 }
 .home__scroll{
     align-self: flex-end;
@@ -364,14 +367,14 @@ img{
     padding: .25rem 0;
 }
 .footer__link:hover{
-    color: var(--first-color);
+    color: white;
 }
 .footer__social{
     font-size: 1.4rem;
     margin-right: var(--mb-1);
 }
 .footer__social:hover{
-    color: var(--first-color);
+    color: white;
 }
 
 /* ===== MEDIA QUERIES =====*/
